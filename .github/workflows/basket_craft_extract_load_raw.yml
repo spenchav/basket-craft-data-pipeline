@@ -32,7 +32,7 @@ jobs:
         run: pip install -r requirements.txt
       
       - name: Run extract and load products to raw
-        run: python elt/basket_craft_products_extract_load.py
+        run: python elt/basket_craft_products_extract_load_raw.py
 
       - name: Run extract and load orders to raw
-        run: python elt/basket_craft_orders_extract_load.py
+        run: python elt/basket_craft_orders_extract_load_raw.py
